@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* 全体を中央揃えにする */
+    font-size: 12px;
+}
+
+h1, form, #startButton {
+    display: block;
+    margin: 10px auto; /* 中央揃えと上下のマージン */
+}
+
+form {
+    display: flex;
+    justify-content: center; /* フォーム内の要素を中央揃え */
+    gap: 10px; /* フォーム内の入力フィールドとボタンの間にスペースを追加 */
+}
+
+.tv {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px auto;
+    width: 75px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+#tables {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.desk {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 0;
+    width: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-align: center;
+}
+
+#sofas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sofa {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 0 10px;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+.seat {
+    margin: 5px;
+    padding: 5px;
+}
